@@ -1,0 +1,1 @@
+The documentation can be found in our [github wiki](https://github.com/Voycer/BestCHOICE/wiki)
