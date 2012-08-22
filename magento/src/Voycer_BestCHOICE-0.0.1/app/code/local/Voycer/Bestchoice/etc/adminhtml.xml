@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Voycer Bestchoice Extension for Magento created by Voycer AG
+ * Get Bestchoice at http://voycer.biz/en/bestchoice
+ *
+ * @category  Voycer
+ * @package   Voycer_Bestchoice_etc_config
+ * @copyright Copyright (c) 2012 Voycer AG. (http://www.bestchioce.biz)
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <voycer translate="title" module="voycer_bestchoice">
+                                        <title>Voycer</title>
+                                    </voycer>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
