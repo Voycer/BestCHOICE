@@ -1,0 +1,13 @@
+<?php
+/**
+ * Voycer AG
+ *
+ * @category    design
+ * @package     voycer_bestchoice
+ * @copyright   Copyright (c) 2012 Voycer AG (http://www.voycer.biz)
+ */
+?>
+
+<div data-vcrbc-product='<?=$product; ?>' class='<?=$css; ?>'<?=$hasCount ? ' data-vcrbc-product-count="0"' : ''; ?>></div>
+
+<?php echo $this->getChildHtml('', true, true) ?>

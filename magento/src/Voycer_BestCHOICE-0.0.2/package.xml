@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Voycer_BestCHOICE</name>
+    <version>0.0.2</version>
+    <stability>beta</stability>
+    <license>MIT License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Brief integration of Voycer BestCHOICE on product list pages and on product detail pages.</summary>
+    <description>Brief integration of Voycer BestCHOICE on product list pages and on product detail pages.</description>
+    <notes>First preview release</notes>
+    <authors><author><name>Voycer AG</name><user>gruberro</user><email>info@voycer.de</email></author></authors>
+    <date>2012-08-28</date>
+    <time>11:04:07</time>
+    <contents><target name="magelocal"><dir name="Voycer"><dir name="Bestchoice"><dir name="Block"><file name="Button.php" hash="def80c73abc9476ec3e63395a0c0a2a1"/><file name="Js.php" hash="30a2decdad459b584ca4a2df32b28842"/></dir><dir name="Helper"><file name="Data.php" hash="c58e760d5e6a063a09ac46d017f325e3"/></dir><dir name="Model"><file name="Config.php" hash="c93fc2c1fe492003d8b758ad0c277773"/></dir><dir name="etc"><file name="adminhtml.xml" hash="b8c6eadd82d7dddecfcca24defcc49a9"/><file name="config.xml" hash="f78992f71af86e6972cbebf98caebdd0"/><file name="system.xml" hash="aaed1acf3cde7daa773a2e07cb69a289"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="voycer_bestchoice.xml" hash="0d5cda8aa013298807efa82b56f53b60"/></dir><dir name="template"><dir name="bestchoice"><file name="button.phtml" hash="5bf121efa53dc1abaeee6d7d80d8f4ff"/><dir name="catalog"><dir name="product"><file name="list.phtml" hash="fe45308fe1ada88c1d0c93f536ff1424"/></dir></dir><file name="js.phtml" hash="ed20f0212277ac6d12cb4bc5f0417fd2"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Voycer_Bestchoice.xml" hash="69c9a0418f507c16b67327dfec5b4977"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Voycer Bestchoice Extension for Magento created by Voycer AG
+ * Get Bestchoice at http://voycer.biz/en/bestchoice
+ *
+ * @category  Voycer
+ * @package   Voycer_Bestchoice_etc_config
+ * @copyright Copyright (c) 2012 Voycer AG. (http://www.bestchioce.biz)
+ */
+-->
+<config>
+    <sections>
+        <voycer translate="label" module="voycer_bestchoice">
+            <label>Voycer</label>
+            <tab>sales</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <bestchoice translate="label">
+                    <label>BestCHOICE</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <active translate="label">
+                            <label>Enable</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </active>
+                        <baseUrl translate="label">
+                            <label>Base URL</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </baseUrl>
+                        <apiKey translate="label">
+                            <label>API key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </apiKey>
+                        <apiSecret translate="label">
+                            <label>API secret</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </apiSecret>
+                        <attributes translate="label">
+                            <label>Attribute Mapping</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Mapping indicating extra attributes for product categories, e.g.&lt;br /&gt;&lt;pre&gt;Computer:model,screensize,harddrive,processor,memory,weight
+Hard Drive:harddrive,harddrive_speed,sku,weight,manufacturer,description,short_description&lt;/pre&gt;</comment>
+                        </attributes>
+                        <css translate="label">
+                            <label>Additional CSS Class</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>voycer_bestchoice/config::getCssOptions</source_model>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </css>
+                        <hasCount translate="label">
+                            <label>Show count on button</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>70</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </hasCount>
+                    </fields>
+                </bestchoice>
+            </groups>
+        </voycer>
+    </sections>
+</config>

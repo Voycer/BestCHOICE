@@ -1,0 +1,26 @@
+<?php
+/**
+ * Voycer AG
+ *
+ * @category    design
+ * @package     voycer_bestchoice
+ * @copyright   Copyright (c) 2012 Voycer AG (http://www.voycer.biz)
+ */
+?>
+
+<script type="text/javascript">
+    var vcrbcConfig = {
+        locale: '<?=$locale; ?>',
+        apiKey: '<?=$apiKey; ?>'
+    };
+</script>
+<script type="text/javascript">
+    (function() {
+        var s  = document.createElement('script');
+        s.type = 'text/javascript';
+        s.src  = '<?=$baseUrl; ?>/js/bestchoice-embed/bestchoice.js?' + (new Date()).getTime();
+        document.body.appendChild(s);
+    })();
+</script>
+
+<?=$this->getChildHtml('', true, true); ?>

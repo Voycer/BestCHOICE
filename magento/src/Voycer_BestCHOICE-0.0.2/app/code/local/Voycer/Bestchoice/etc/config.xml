@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Voycer Bestchoice Extension for Magento created by Voycer AG
+ * Get Bestchoice at http://voycer.biz/en/bestchoice
+ *
+ * @category  Voycer
+ * @package   Voycer_Bestchoice_etc_config
+ * @copyright Copyright (c) 2012 Voycer AG. (http://www.bestchioce.biz)
+ */
+-->
+<config>
+    <modules>
+        <Voycer_Bestchoice>
+            <version>0.0.1</version>
+        </Voycer_Bestchoice>
+    </modules>
+    <global>
+        <blocks>
+            <voycer_bestchoice module="Voycer_Bestchoice">
+                <class>Voycer_Bestchoice_Block</class>
+            </voycer_bestchoice>
+        </blocks>
+        <helpers>
+            <voycer_bestchoice module="Voycer_Bestchoice">
+                <class>Voycer_Bestchoice_Helper</class>
+            </voycer_bestchoice>
+        </helpers>
+        <models>
+            <voycer_bestchoice module="Voycer_Bestchoice">
+                <class>Voycer_Bestchoice_Model</class>
+            </voycer_bestchoice>
+        </models>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <bestchoice module="Voycer_Bestchoice">
+                    <file>voycer_bestchoice.xml</file>
+                </bestchoice>
+            </updates>
+        </layout>
+    </frontend>
+</config>
