@@ -41,7 +41,7 @@ class Voycer_Bestchoice_Helper_Data extends Mage_Core_Helper_Abstract
     {
         $option = Mage::getStoreConfigFlag(static::XML_PATH_CSS, $store);
 
-        if ($option === 0) {
+        if ($option == 0) {
             return '';
         }
 
